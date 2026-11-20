@@ -1,0 +1,7 @@
+@echo off
+set PATH=C:\Program Files\nodejs;%PATH%
+set PORT=5001
+set NODE_ENV=production
+set MONGODB_URI=mongodb+srv://tharaneeshk07_db_user:i0EHpgSdEkKbDrJP@cluster1.ugmnlf6.mongodb.net
+cd /d "%~dp0"
+"C:\Program Files\nodejs\node.exe" server.js
